@@ -1,3 +1,16 @@
+## 📬 Author Name: Ayush Goyal
+
+Roll No.: 2501730281
+
+Course: B.Tech CSE (AI-ML)
+
+Section: E
+
+Subject: Web Development
+
+Lab Assignment-05 --- Capstone - Responsive Website Project
+---
+
 # Dine It — Food Delivery Website
 
 A modern, responsive, and visually polished food-delivery landing page built using HTML5 & CSS3.
@@ -5,7 +18,7 @@ This project showcases UI design, layout structuring, responsiveness, and clean 
 
 ---
 
-##🔥 Introduction
+## 🔥 Introduction
 
 Dine It is a front-end project that represents a fictional food-delivery brand. The website includes a hero section, menu items, pricing plans, contact form, and smooth UI components.
 It is fully responsive and styled using custom CSS variables, grid layout, modern shadows, animations, and reusable UI classes.
