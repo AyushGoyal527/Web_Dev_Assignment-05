@@ -1,0 +1,243 @@
+Html <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dine It — Food Delivery</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="002.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <img src="https://i.pinimg.com/1200x/57/3c/ab/573cab635da889843db8c9778d29552c.jpg" width="48" height="48" class="logo" alt="QuickBite logo">
+        <div>
+          <span class="brand-name">Dine It</span>
+          <small class="brand-tag">Fresh food. Fast delivery.</small>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#how-it-works">How it works</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#signup" class="btn btn-ghost">Sign up</a>
+        <a href="#menu" class="btn btn-primary">Order Now</a>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="hero">
+    <div class="hero-inner">
+      <h1><span>Hot meals,</span> delivered quickly.</h1>
+      <p class="hero-tagline">Choose fresh dishes from local kitchens and get them delivered hot to your door.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#menu">Browse Menu</a>
+        <a class="btn btn-ghost" href="#how-it-works">How it works</a>
+      </div>
+    </div>
+
+    <figure class="hero-image">
+      <img src="https://i.pinimg.com/736x/cb/85/31/cb8531d95dd6a988a43f0dcbb54b3bfb.jpg" alt="food delivery">
+    </figure>
+  </section>
+
+
+  <!-- MENU SECTION -->
+  <section id="menu" class="section">
+    <h2>Popular Dishes</h2>
+    <hr>
+
+    <div class="menu-grid">
+
+      <article class="card">
+        <img src="https://i.pinimg.com/736x/d9/db/94/d9db947145fb931a2bd2b0dc46b59ac0.jpg" class="card-img">
+        <div class="card-body">
+          <h3 class="card-title">Margherita Pizza</h3>
+          <p class="card-desc">Classic tomato, mozzarella & basil.</p>
+          <div class="card-meta">
+            <span class="price">₹299</span>
+            <a class="btn btn-sm btn-primary" href="#contact">Order</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://i.pinimg.com/1200x/46/e5/e2/46e5e20fbae63cc9ac77b82af339abc5.jpg" class="card-img">
+        <div class="card-body">
+          <h3 class="card-title">Spicy Ramen</h3>
+          <p class="card-desc">Rich broth, springy noodles & egg.</p>
+          <div class="card-meta">
+            <span class="price">₹349</span>
+            <a class="btn btn-sm btn-primary" href="#contact">Order</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://i.pinimg.com/1200x/d0/60/a3/d060a32e388cbbb7dc4a312c6d23e237.jpg" class="card-img">
+        <div class="card-body">
+          <h3 class="card-title">Grilled Chicken Wrap</h3>
+          <p class="card-desc">Tangy yogurt sauce & veggies.</p>
+          <div class="card-meta">
+            <span class="price">₹249</span>
+            <a class="btn btn-sm btn-primary" href="#contact">Order</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+
+<!-- HOW IT WORKS -->
+<section id="how-it-works" class="section">
+  <h2>How It Works</h2>
+  <hr>
+
+  <div class="steps-grid">
+
+    <article class="step-card">
+      <div class="step-icon">🍽️</div>
+      <h3>Choose</h3>
+      <p>Select your favourite dishes from our curated menu.</p>
+    </article>
+
+    <article class="step-card">
+      <div class="step-icon">🛒</div>
+      <h3>Checkout</h3>
+      <p>Add your delivery details & make a quick secure payment.</p>
+    </article>
+
+    <article class="step-card">
+      <div class="step-icon">🚚</div>
+      <h3>Enjoy</h3>
+      <p>Your food arrives hot & fresh at your doorstep.</p>
+    </article>
+
+  </div>
+</section>
+
+  <!-- PRICING SECTION -->
+<section id="pricing" class="section">
+  <h2>Pricing Plans</h2>
+  <hr>
+
+  <div class="pricing-grid">
+    
+    <!-- Pay-as-you-go -->
+    <article class="pricing-card">
+      <h3>Pay-as-you-go</h3>
+      <p class="price-large">No Subscription</p>
+      <ul class="pricing-list">
+        <li>Standard delivery</li>
+        <li>Pay only when you order</li>
+      </ul>
+      <a class="btn btn-primary" href="#contact">Start Now</a>
+    </article>
+
+    <!-- Monthly Plan (Highlighted) -->
+    <article class="pricing-card pricing-highlight">
+      <div class="tag">Most Popular</div>
+      <h3>Monthly</h3>
+      <p class="price-large">₹499 / month</p>
+      <ul class="pricing-list">
+        <li>Unlimited FREE delivery</li>
+        <li>Priority support</li>
+        <li>Special member offers</li>
+      </ul>
+      <a class="btn btn-primary" href="#signup">Subscribe</a>
+    </article>
+
+    <!-- Annual -->
+    <article class="pricing-card">
+      <h3>Annual</h3>
+      <p class="price-large">₹2499 / year</p>
+      <ul class="pricing-list">
+        <li>Save 2 months</li>
+        <li>Exclusive yearly rewards</li>
+        <li>Priority access to deals</li>
+      </ul>
+      <a class="btn btn-primary" href="#signup">Subscribe</a>
+    </article>
+
+  </div>
+</section>
+
+
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Contact & Inquiry</h2>
+  <hr>
+
+  <div class="contact-grid">
+
+    <!-- Contact Form -->
+    <form class="contact-form">
+      <div class="form-row">
+        <label>Name</label>
+        <input type="text" placeholder="Your name">
+      </div>
+
+      <div class="form-row">
+        <label>Email</label>
+        <input type="email" placeholder="you@example.com">
+      </div>
+
+      <div class="form-row">
+        <label>Phone</label>
+        <input type="tel" placeholder="+91 9**** *****">
+      </div>
+
+      <div class="form-row">
+        <label>Message</label>
+        <textarea rows="4" placeholder="Write your message..."></textarea>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </div>
+    </form>
+
+    <!-- Contact Info -->
+    <aside class="contact-info">
+      <h3>Get in Touch</h3>
+      <p>Have questions? We'd love to help.</p>
+
+      <div class="info-box">
+        <h4>Address</h4>
+        <p>N- 105/21, Rajeev Chowk, New Delhi</p>
+
+        <h4>Phone</h4>
+        <p>+91 9999000999</p>
+
+        <h4>Email</h4>
+        <p>support@dineit.com</p>
+      </div>
+    </aside>
+
+  </div>
+</section>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <small>© 2025 Dine It. All rights reserved.</small>
+    </div>
+  </footer>
+
+</body>
+</html>
