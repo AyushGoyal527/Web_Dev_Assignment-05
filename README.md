@@ -89,10 +89,12 @@ Modern UI patterns
 ---
 
 ## 📂 Project Structure
-/project-folder
+/Web_Dev_Assignment-05
+
 │── 002.html       # Main webpage structure
+
 │── 002.css        # All styles, layout, colors & animations
-│── images/        # External images used via URLs
+
 
 ---
 
